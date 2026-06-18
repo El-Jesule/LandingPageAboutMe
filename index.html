@@ -8,91 +8,123 @@
 </head>
 <body>
   <nav>
-    <p>Inicio</p>
-    <p>Historia</p>
-    <p>Formación</p>
-    <p>Intereses</p>
+    <a href="#inicio">Inicio</a>
+    <a href="#historia">Historia</a>
+    <a href="#formacion">Formación</a>
+    <a href="#intereses">Intereses</a>
   </nav>
-  <header>
-    <h1>Soy <span>Jesús González Gómez</span>.</h1>
-    <h1>Desarrollador Web Fullstack.</h1>
-    <img class="yo" src="img/yo.jfif" alt="Imagen de Jesús González Gómez mirando a cámara. Lleva gafas, una gorra y barba">
+
+  <header id="inicio">
+    <div class="header-content">
+      <div class="header-text">
+        <h1>Soy <span>Jesús González Gómez</span>.</h1>
+        <h2>Desarrollador Web Fullstack.</h2>
+      </div>
+      <img class="yo" src="img/yo.jfif" alt="Imagen de Jesús González Gómez mirando a cámara. Lleva gafas, una gorra y barba">
+    </div>
   </header>
+
   <main>
-    <section>
-      <div>
-        <p>Nací en Barcelona, España. Viví durante diecinueve años en el Barri de Verdum, en Nou Barris, un barrio humilde y obrero, con un ambiente diverso que contribuyó a parte de mi visión del mundo que mantengo hasta el día de hoy.
-        </p>
+    <section id="historia" class="historia">
+
+      <div class="fila">
+        <div class="fila-texto">
+          <p>Nací en Barcelona, España. Viví durante diecinueve años en el Barri de Verdum, en Nou Barris, un barrio humilde y obrero, con un ambiente diverso que contribuyó a parte de mi visión del mundo que mantengo hasta el día de hoy.</p>
+        </div>
+        <div class="fila-separador"></div>
+        <img class="fila-img" src="img/banderas.jpg" alt="Bandera de Cataluña en la izquierda mezclándose en el centro con una bandera de España a la derecha">
       </div>
-      <img src="img/banderas.jpg" alt="Bandera de Cataluña en la izquierda mezclándose en el centro con una bandera de España a la derecha">
+
+      <div class="fila fila-inversa">
+        <img class="fila-img" src="img/fuente_guineueta.jpg" alt="Parque con un pequeño lago artificial en el centro con chorros de agua en su interior. De fondo hay árboles.">
+        <div class="fila-separador"></div>
+        <div class="fila-texto">
+          <p>Mi adolescencia fue una etapa convulsa, llena tanto de buenos como de malos momentos. En esa época descubrí el manga y el anime, y me adentré más en los videojuegos, aficiones que me acompañan hasta hoy. Este último me llevó eventualmente a terminar estudiando Desarrollo de Aplicaciones Web.</p>
+        </div>
+      </div>
+
+      <div class="fila">
+        <div class="fila-texto">
+          <p>Mi paso por la ESO fue complicado. Repetí primero y finalmente la dejé en tercero. Años después, recién cumplidos los dieciocho, terminé mi formación básica en una escuela de adultos.</p>
+          <p>Fue mi hermano quien me convenció de orientarme hacia la informática, viendo mi pasión por los videojuegos. Empecé por un Grado Medio en Sistemas Microinformáticos y Redes en Barcelona, que terminé en Granada.</p>
+          <p>Durante las prácticas descubrí que lo que realmente me apasionaba era la programación web, y eso me llevó a cursar un Grado Superior en Desarrollo de Aplicaciones Web, también en Granada.</p>
+        </div>
+        <div class="fila-separador"></div>
+        <img class="fila-img" src="img/desarrollo-web.jpg" alt="Imagen de un portátil con código en la pantalla.">
+      </div>
+
     </section>
-    <section>
-      <img src="img/fuente_guineueta.jpg" alt="Parque con un pequeño lago artificial en el centro con chorros de agua en su interior. De fondo hay árboles.">
-      <div>
-        <p>
-          Mi adolescencia fue una etapa convulsa, llena tanto de buenos como de malos momentos. En esa época descubrí el manga y el anime, y me adentré más en los videojuegos, aficiones que me acompañan hasta hoy. Este último me llevó eventualmente a terminar estudiando Desarrollo de Aplicaciones Web.
-        </p>
+
+    <section id="formacion" class="formacion">
+      <h2 class="seccion-titulo">Formación</h2>
+      <div class="timeline">
+
+        <div class="timeline-item timeline-izquierda">
+          <div class="timeline-card">
+            <p class="timeline-titulo">Título de Educación Secundaria</p>
+            <p class="timeline-centro">CFA Freire</p>
+            <p class="timeline-fecha">2017-2018</p>
+          </div>
+          <div class="timeline-nodo"></div>
+        </div>
+
+        <div class="timeline-item timeline-derecha">
+          <div class="timeline-nodo"></div>
+          <div class="timeline-card">
+            <p class="timeline-titulo">Grado Medio en Sistemas Microinformáticos y Redes</p>
+            <p class="timeline-centro">Institut Tecnològic de Barcelona · IES Aricel, Granada</p>
+            <p class="timeline-fecha">2018-2022</p>
+          </div>
+        </div>
+
+        <div class="timeline-item timeline-izquierda">
+          <div class="timeline-card">
+            <p class="timeline-titulo">Grado Superior en Desarrollo de Aplicaciones Web</p>
+            <p class="timeline-centro">IES Zaidin-Vergeles, Granada</p>
+            <p class="timeline-fecha">2023-2025</p>
+          </div>
+          <div class="timeline-nodo"></div>
+        </div>
+
+        <div class="timeline-item timeline-derecha">
+          <div class="timeline-nodo"></div>
+          <div class="timeline-card">
+            <p class="timeline-titulo">Bootcamp de Desarrollo Web Fullstack con IA</p>
+            <p class="timeline-centro">Cáritas y Factoría F5</p>
+            <p class="timeline-fecha">2026-Actualidad</p>
+          </div>
+        </div>
+
       </div>
     </section>
-    <section>
-      <div>
-        <p>
-          Mi paso por la ESO fue complicado. Repetí primero y finalmente la dejé en tercero. Años después, recién cumplidos los dieciocho, terminé mi formación básica en una escuela de adultos.
-        </p>
-        <p>
-          Fue mi hermano quien me convenció de orientarme hacia la informática, viendo mi pasión por los videojuegos. Empecé por un Grado Medio en Sistemas Microinformáticos y Redes en Barcelona, que terminé en Granada.
-        </p>
-        <p>
-          Durante las prácticas descubrí que lo que realmente me apasionaba era la programación web, y eso me llevó a cursar un Grado Superior en Desarrollo de Aplicaciones Web, también en Granada.
-        </p>
-      </div>
-      <img src="img/desarrollo-web.jpg" alt="Imagen de un portátil con código en la pantalla.">
-    </section>
-    <section>
-      <div>
-        <p>Título de Educación Secundaria.</p>
-        <p>Cursado en CFA Freire.</p>
-        <p>2017-2018</p>
-      </div>
-      <div>
-        <p>Grado Medio en Sistemas Microinformáticos y Redes.</p>
-        <p>Empezado en el Institut Tecnològic de Barcelona, terminado en IES Aricel, Albolote, Granada.</p>
-        <p>2018-2022</p>
-      </div>
-      <div>
-        <p>Grado Superior en Desarrollo de Aplicaciones Web.</p>
-        <p>Cursado en IES Zaidin-Vergeles.</p>
-        <p>2023-2025</p>
-      </div>
-      <div>
-        <p>Bootcamp de Desarrollo Web Fullstack con IA.</p>
-        <p>Impartido por Cáritas y Factoría F5.</p>
-        <p>2026-Actualidad</p>
-      </div>
-    </section>
-    <section>
-      <div>
-        <h3>Manga y anime</h3>
-        <img src="img/one-piece-logo.png" alt="Logo de One Piece">
-        <p>El manga y el anime es una de mis aficiones, consumiéndolo de manera recurrente desde mi infancia. </p>
-      </div>
-      <div>
-        <h3>Videojuegos</h3>
-        <img src="img/outer-wilds-logo.png" alt="Logo de Outer Wilds">
-        <p>Llevo jugando videojuegos desde que mi hermano me regaló una GameBoy Color en la infancia.</p>
-      </div>
-      <div>
-        <h3>Roleplay</h3>
-        <img src="img/dnd-logo.png" alt="Logo de DnD">
-        <p>El roleplay es algo que descubrí hace alrededor de los 23 años. Decidí probarlo y me terminó gustando.</p>
-      </div>
-      <div>
-        <h3>Ping Pong</h3>
-        <img src="img/ping-pong.jpg" alt="Dos raquetas de ping pong, una azul y otra roja, sobre una mesa de ping pong. Debajo de la raqueta azul hay una bola amarilla.">
-        <p>El ping pong lo jugaba con amigos hace años, en Barcelona. Lo pasaba realmente bien jugando.</p>
+
+    <section id="intereses" class="intereses">
+      <h2 class="seccion-titulo">Intereses</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Manga y anime</h3>
+          <img src="img/one-piece-logo.png" alt="Logo de One Piece">
+          <p>El manga y el anime es una de mis aficiones, consumiéndolo de manera recurrente desde mi infancia.</p>
+        </div>
+        <div class="card">
+          <h3>Videojuegos</h3>
+          <img src="img/outer-wilds-logo.png" alt="Logo de Outer Wilds">
+          <p>Llevo jugando videojuegos desde que mi hermano me regaló una GameBoy Color en la infancia.</p>
+        </div>
+        <div class="card">
+          <h3>Roleplay</h3>
+          <img src="img/dnd-logo.png" alt="Logo de DnD">
+          <p>El roleplay es algo que descubrí hace alrededor de los 23 años. Decidí probarlo y me terminó gustando.</p>
+        </div>
+        <div class="card">
+          <h3>Ping Pong</h3>
+          <img src="img/ping-pong.jpg" alt="Dos raquetas de ping pong sobre una mesa.">
+          <p>El ping pong lo jugaba con amigos hace años, en Barcelona. Lo pasaba realmente bien jugando.</p>
+        </div>
       </div>
     </section>
   </main>
+
   <footer>
     <p>Hecho por Jesús González Gómez</p>
   </footer>

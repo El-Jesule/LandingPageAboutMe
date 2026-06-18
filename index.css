@@ -244,7 +244,7 @@ span {
 }
 
 .card {
-  background-color: var(--color-bg-alt);
+  background-color: var(--color-header-bg);
   border-radius: 16px;
   padding: 28px 20px;
   flex: 1;
